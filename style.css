@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background: #E5E5E5;
+    background: #CE915C;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +19,8 @@ body {
 .container-top {
     height: 50vh;
     width: 100vw;
+    background: #E5E5E5;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,8 +43,7 @@ body {
 .card {
     position: absolute;
     background: #FFFFFF;
-    width: calc(100% - 7%);
-    /* width: 560px; */
+    width: 560px;
     top: 180px;
     height: 680px;
     border-radius: 30px;
@@ -51,7 +52,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 5%;
 }
 
 .svg-icon {
@@ -138,6 +139,10 @@ body {
 }
 
 @media (max-width: 600px) {
+    .card {
+        width: calc(100% - 7%);
+    }
+
     .button-submit {
         width: 300px;
     }
