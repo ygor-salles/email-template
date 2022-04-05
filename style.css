@@ -33,13 +33,19 @@ body {
     font-size: 12px;
     line-height: 13.8px;
     color: #757575;
-    margin-top: 20px;
+    text-align: center;
+    margin: 20px;
 }
 
-.logo-agropago {
+.logo-agropago-welcome {
     width: 145px;
     height: 66px;
     margin-top: 40px;
+}
+
+.logo-agropago-change-password {
+    width: 145px;
+    height: 66px;
 }
 
 .container-bottom {
@@ -167,6 +173,15 @@ body {
 @media (max-width: 330px) {
     .button-submit {
         width: 200px;
+    }
+
+    .svg-icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .title {
+        font-size: 22px;
     }
 }
 
